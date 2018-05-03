@@ -1,0 +1,45 @@
+---
+title: "Grant Writing Exercise"
+author: "Josh D'Aeth"
+date: "7 April 2018"
+
+header_includes:
+  - \titlegraphic{\centering \includegraphics[width=12cm]{./imp_crest.png}}
+output: 
+  beamer_presentation:
+    theme: "berlin"
+    colortheme: "lily"
+image: ![](./imp_crest.png)
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview of First Project:
+* **Population Genomics of Multidrug resistance in *Streptococcus pneumoniae* **
+* Antibiotic resistance is an increasing problem in the important human pathogen _Streptococcus pneumoniae_ 
+* I analsysed WGS of isolates in two large international collections of Multidrug resistant _S. pneumoniae_ as well as mining large public sequence databases to assess the spread of two common antibiotic resistance elements.
+* Work Highlighted  
+
+
+
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
